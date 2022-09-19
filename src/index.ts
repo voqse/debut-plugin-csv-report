@@ -43,7 +43,7 @@ export function csvReportPlugin(opts: CsvReportPluginOptions): CsvReportPluginIn
 
             const { ticker, interval } = this.debut.opts;
             const botData = await cli.getBotData(this.debut.getName())!;
-            const savePath = `${botData?.src}/csv-report/`;
+            const savePath = `${botData?.src}/csv-report`;
             const datePrefix = new Date().toISOString().slice(0, 10);
             const saveFullPath = path.resolve(savePath, `report-${datePrefix}-${ticker}-${interval}.csv`);
 
@@ -55,7 +55,6 @@ export function csvReportPlugin(opts: CsvReportPluginOptions): CsvReportPluginIn
             log.info('Shutting down plugin...');
 
             csvStringify.pipe(writeStream);
-            csvStringify.end();
         },
     };
 }
