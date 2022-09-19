@@ -1,0 +1,38 @@
+{
+    "name": "debut-plugin-csv-report",
+    "version": "1.0.0",
+    "description": "Debut plugin that generates csv reports with desired data.",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "keywords": [
+        "debut",
+        "plugin",
+        "api"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "watch": "tsc --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/voqse/debut-plugin-csv-reports.git"
+    },
+    "author": "voqse",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/voqse/debut-plugin-csv-reports/issues"
+    },
+    "homepage": "https://github.com/voqse/debut-plugin-csv-reports#readme",
+    "peerDependencies": {
+        "@debut/community-core": "^4.0.4"
+    },
+    "devDependencies": {
+        "@debut/types": "^4.0.2",
+        "husky": "^8.0.1",
+        "prettier": "^2.7.1",
+        "typescript": "^4.8.2"
+    },
+    "dependencies": {
+        "@voqse/logger": "^1.0.4"
+    }
+}
