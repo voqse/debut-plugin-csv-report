@@ -15,14 +15,14 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/voqse/debut-plugin-csv-reports.git"
+        "url": "git+https://github.com/voqse/debut-plugin-csv-report.git"
     },
     "author": "voqse",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/voqse/debut-plugin-csv-reports/issues"
+        "url": "https://github.com/voqse/debut-plugin-csv-report/issues"
     },
-    "homepage": "https://github.com/voqse/debut-plugin-csv-reports#readme",
+    "homepage": "https://github.com/voqse/debut-plugin-csv-report#readme",
     "peerDependencies": {
         "@debut/community-core": "^4.0.4"
     },
