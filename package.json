@@ -1,6 +1,6 @@
 {
     "name": "debut-plugin-csv-report",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "Debut plugin that generates csv reports with desired data.",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
